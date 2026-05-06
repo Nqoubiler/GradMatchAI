@@ -1,73 +1,42 @@
-# 🎓 GradMatch AI
+# Graduate Job Match Assistant
 
-GradMatch AI is a graduate-friendly CV and job matching assistant built using Python and Streamlit.
+A web app that helps graduates from any field and any country check how well their CV matches a job description before applying.
 
-The app helps users compare their CV against a job description using field-specific skill matching.
+## Problem
 
-Users can:
-- Upload a CV
+Many graduates apply for jobs without knowing if they actually qualify.  
+This leads to rejections and wasted time.
+
+## Solution
+
+This app allows users to:
+- Upload their CV
 - Paste a job description
 - Get a match score
-- View matched and missing skills
-- Detect field-related keywords
-- Generate a personalised cover letter draft
+- See missing keywords
+- Generate a simple cover note
 
----
+This helps graduates apply smarter and improve their chances.
 
-## 🚀 Features
+## Features
 
-- CV keyword extraction
-- Job description analysis
-- Match score calculation
-- Field-specific skill matching
-- Support for multiple career fields
-- Auto-detect field option
-- Light and dark themes
-- Personalised cover letter generation
+- CV upload (PDF, DOCX, TXT)
+- Job match score using text analysis
+- Missing keyword detection
+- Simple cover note generator
+- Works for all fields (IT, Business, HR, Engineering, etc.)
+- Works globally (any country)
 
----
-
-## 📂 Supported Fields
-
-- Data Analytics / Statistics
-- IT Support / Technician
-- Software Development
-- Finance
-- Law
-- Marketing
-- HR
-- Engineering
-- Health Sciences
-- Education
-- Business
-
----
-
-## 🛠️ Technologies Used
+## Tools Used
 
 - Python
 - Streamlit
-- JSON
+- Scikit-learn (TF-IDF + Cosine Similarity)
 - PyPDF2
 - python-docx
 
----
+## How to Run the App
 
-## 📸 Project Preview
-
-<img width="100%" alt="GradMatch AI" src="YOUR_SCREENSHOT_LINK_HERE">
-
----
-
-## ▶️ Live App
-
-[Open GradMatch AI](YOUR_STREAMLIT_LINK_HERE)
-
----
-
-## 📦 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/GradMatch-AI.git# GradMatchAI
+1. Install requirements:
+   ```bash
+   pip install -r requirements.txt

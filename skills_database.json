@@ -1,0 +1,273 @@
+{
+  "Data Analytics / Statistics": {
+    "skills": [
+      "Python",
+      "SQL",
+      "Excel",
+      "Power BI",
+      "Tableau",
+      "SAS",
+      "R",
+      "Data Analysis",
+      "Data Cleaning",
+      "Data Visualization",
+      "Dashboard Development",
+      "Reporting",
+      "Statistics",
+      "Statistical Analysis",
+      "Machine Learning",
+      "Forecasting",
+      "Data Collection",
+      "Data Interpretation",
+      "Research",
+      "Business Intelligence",
+      "KPIs",
+      "Analytics",
+      "Problem Solving",
+      "Attention to Detail",
+      "Communication",
+      "Critical Thinking",
+      "Presentation Skills"
+    ]
+  },
+
+  "IT Support / Technician": {
+    "skills": [
+      "Technical Support",
+      "IT Support",
+      "Help Desk",
+      "Troubleshooting",
+      "Hardware Installation",
+      "Software Installation",
+      "Network Support",
+      "Windows",
+      "Linux",
+      "Microsoft Office",
+      "Active Directory",
+      "Ticketing System",
+      "Printer Support",
+      "User Support",
+      "Remote Support",
+      "System Maintenance",
+      "Computer Repairs",
+      "LAN",
+      "WAN",
+      "VPN",
+      "Cybersecurity Awareness",
+      "Backup",
+      "Cloud Computing",
+      "WiFi Configuration",
+      "Customer Service",
+      "Problem Solving",
+      "Attention to Detail",
+      "Communication"
+    ]
+  },
+
+  "Software Development": {
+    "skills": [
+      "Python",
+      "Java",
+      "C++",
+      "C#",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "React",
+      "Node.js",
+      "SQL",
+      "Git",
+      "GitHub",
+      "APIs",
+      "Debugging",
+      "Object-Oriented Programming",
+      "Web Development",
+      "Database Management",
+      "Software Testing",
+      "Agile",
+      "Frontend Development",
+      "Backend Development",
+      "Responsive Design",
+      "Problem Solving",
+      "Attention to Detail",
+      "Teamwork",
+      "Communication"
+    ]
+  },
+
+  "Finance": {
+    "skills": [
+      "Excel",
+      "Power BI",
+      "Financial Analysis",
+      "Budgeting",
+      "Forecasting",
+      "Reconciliation",
+      "Audit",
+      "Accounting",
+      "Variance Analysis",
+      "Financial Reporting",
+      "Bookkeeping",
+      "Tax",
+      "SAP",
+      "Sage",
+      "Risk Analysis",
+      "Financial Modelling",
+      "Attention to Detail",
+      "Accuracy",
+      "Problem Solving",
+      "Communication"
+    ]
+  },
+
+  "Law": {
+    "skills": [
+      "Legal Research",
+      "Legal Writing",
+      "Contract Review",
+      "Case Law",
+      "Compliance",
+      "Regulatory Research",
+      "Litigation Support",
+      "Drafting Legal Documents",
+      "Client Consultation",
+      "Legal Administration",
+      "Confidentiality",
+      "Attention to Detail",
+      "Critical Thinking",
+      "Communication",
+      "Problem Solving",
+      "Negotiation",
+      "Legal Analysis"
+    ]
+  },
+
+  "Marketing": {
+    "skills": [
+      "Digital Marketing",
+      "SEO",
+      "Paid Media",
+      "Google Analytics",
+      "Campaign Analysis",
+      "Content Marketing",
+      "Brand Strategy",
+      "Customer Journey",
+      "Social Media Marketing",
+      "Market Research",
+      "Copywriting",
+      "Canva",
+      "Meta Ads",
+      "Email Marketing",
+      "Advertising",
+      "Communication",
+      "Creativity",
+      "Presentation Skills",
+      "Analytics"
+    ]
+  },
+
+  "HR": {
+    "skills": [
+      "Recruitment",
+      "Onboarding",
+      "Employee Records",
+      "Training Coordination",
+      "Payroll Support",
+      "HR Administration",
+      "HRIS",
+      "Sage Payroll",
+      "Talent Management",
+      "Employee Relations",
+      "Performance Management",
+      "Confidentiality",
+      "Communication",
+      "Organisation",
+      "People Skills",
+      "Attention to Detail"
+    ]
+  },
+
+  "Engineering": {
+    "skills": [
+      "AutoCAD",
+      "MATLAB",
+      "SolidWorks",
+      "Technical Design",
+      "Quality Control",
+      "Project Support",
+      "Maintenance",
+      "Process Improvement",
+      "Technical Reporting",
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Civil Engineering",
+      "Safety Compliance",
+      "Problem Solving",
+      "Teamwork",
+      "Attention to Detail",
+      "Communication"
+    ]
+  },
+
+  "Health Sciences": {
+    "skills": [
+      "Patient Care",
+      "Health Education",
+      "Clinical Documentation",
+      "Medical Records",
+      "Public Health",
+      "Research",
+      "Data Collection",
+      "Health Promotion",
+      "Healthcare Support",
+      "Clinical Research",
+      "Ethics",
+      "Confidentiality",
+      "Communication",
+      "Attention to Detail",
+      "Teamwork",
+      "Problem Solving"
+    ]
+  },
+
+  "Education": {
+    "skills": [
+      "Lesson Planning",
+      "Teaching",
+      "Tutoring",
+      "Curriculum Support",
+      "Assessment",
+      "Classroom Management",
+      "Student Support",
+      "Communication",
+      "Presentation Skills",
+      "Leadership",
+      "Patience",
+      "Organisation",
+      "Problem Solving",
+      "Education Research"
+    ]
+  },
+
+  "Business": {
+    "skills": [
+      "Business Analysis",
+      "Operations",
+      "Project Management",
+      "Process Improvement",
+      "CRM",
+      "Administration",
+      "Stakeholder Management",
+      "Reporting",
+      "Research",
+      "Customer Service",
+      "Excel",
+      "Communication",
+      "Problem Solving",
+      "Leadership",
+      "Attention to Detail",
+      "Business Development",
+      "Strategic Thinking"
+    ]
+  }
+}
