@@ -55,13 +55,13 @@ Users can:
 
 ## 📸 Project Preview
 
-<img width="100%" alt="GradMatch AI" src="YOUR_SCREENSHOT_LINK_HERE">
+<img width="100%" alt="GradMatch AI" src="(https://github.com/Nqoubiler/GradMatchAI/blob/main/app.py)">
 
 ---
 
 ## ▶️ Live App
 
-[Open GradMatch AI](YOUR_STREAMLIT_LINK_HERE)
+[Open GradMatch AI]([YOUR_STREAMLIT_LINK_HERE])
 
 ---
 
