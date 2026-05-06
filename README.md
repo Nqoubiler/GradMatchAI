@@ -61,7 +61,7 @@ Users can:
 
 ## ▶️ Live App
 
-[Open GradMatch AI]([YOUR_STREAMLIT_LINK_HERE])
+[Open GradMatch AI](https://gradmatchai-nal2bwyuknm7fuwgggvek2.streamlit.app/)
 
 ---
 
@@ -70,4 +70,4 @@ Users can:
 Clone the repository:
 
 ```bash
-git clone https://github.com/Nqoubiler/GradMatch-AI.git
+git clone https://github.com/Nqoubiler/GradMatchAI.git
