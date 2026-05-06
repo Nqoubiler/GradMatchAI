@@ -35,8 +35,3 @@ This helps graduates apply smarter and improve their chances.
 - PyPDF2
 - python-docx
 
-## How to Run the App
-
-1. Install requirements:
-   ```bash
-   pip install -r requirements.txt
