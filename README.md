@@ -55,7 +55,7 @@ Users can:
 
 ## 📸 Project Preview
 
-<img width="100%" alt="GradMatch AI" src="(https://github.com/Nqoubiler/GradMatchAI/blob/main/app.py)">
+<img width="100%" alt="GradMatch AI" src="https://github.com/Nqoubiler/GradMatchAI/blob/main/app.py">
 
 ---
 
