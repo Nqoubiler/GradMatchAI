@@ -1,13 +1,6 @@
 {
   "Data Analytics / Statistics": {
-    "skills": [
-      "Python",
-      "SQL",
-      "Excel",
-      "Power BI",
-      "Tableau",
-      "SAS",
-      "R",
+    "required_skills": [
       "Data Analysis",
       "Data Cleaning",
       "Data Visualization",
@@ -15,24 +8,52 @@
       "Reporting",
       "Statistics",
       "Statistical Analysis",
-      "Machine Learning",
-      "Forecasting",
-      "Data Collection",
       "Data Interpretation",
-      "Research",
-      "Business Intelligence",
-      "KPIs",
-      "Analytics",
+      "Excel",
+      "SQL",
+      "Python",
+      "Power BI",
+      "SAS",
+      "R"
+    ],
+    "related_skills": {
+      "Power BI": ["Dashboard", "Dashboard Development", "Business Intelligence", "Reports", "Data Visualization"],
+      "SQL": ["Database", "Queries", "MySQL", "PostgreSQL", "Data Extraction"],
+      "Python": ["Pandas", "NumPy", "Data Analysis", "Automation", "Scripting"],
+      "Statistics": ["Regression", "Hypothesis Testing", "Probability", "Statistical Modelling", "Data Interpretation"],
+      "Data Cleaning": ["Data Preparation", "Data Quality", "Data Validation", "Data Wrangling"],
+      "Reporting": ["Reports", "KPI Reporting", "Business Reporting", "Insights"]
+    },
+    "degrees": [
+      "BSc Statistics",
+      "BSc Data Science",
+      "BSc Computer Science",
+      "BSc Mathematics",
+      "Statistics",
+      "Data Science",
+      "Mathematics",
+      "Computer Science"
+    ],
+    "certifications": [
+      "Microsoft Power BI",
+      "Google Data Analytics",
+      "SAS Certification",
+      "IBM Data Analyst",
+      "Microsoft Excel",
+      "SQL Certification"
+    ],
+    "soft_skills": [
       "Problem Solving",
       "Attention to Detail",
       "Communication",
       "Critical Thinking",
-      "Presentation Skills"
+      "Presentation Skills",
+      "Teamwork"
     ]
   },
 
   "IT Support / Technician": {
-    "skills": [
+    "required_skills": [
       "Technical Support",
       "IT Support",
       "Help Desk",
@@ -41,31 +62,52 @@
       "Software Installation",
       "Network Support",
       "Windows",
-      "Linux",
       "Microsoft Office",
       "Active Directory",
       "Ticketing System",
       "Printer Support",
       "User Support",
       "Remote Support",
-      "System Maintenance",
-      "Computer Repairs",
       "LAN",
       "WAN",
-      "VPN",
-      "Cybersecurity Awareness",
-      "Backup",
-      "Cloud Computing",
-      "WiFi Configuration",
+      "VPN"
+    ],
+    "related_skills": {
+      "Technical Support": ["IT Support", "Help Desk", "User Support", "Customer Support"],
+      "Troubleshooting": ["Problem Diagnosis", "Issue Resolution", "Technical Problems"],
+      "Network Support": ["LAN", "WAN", "Router", "Switch", "WiFi Configuration"],
+      "Active Directory": ["User Accounts", "Password Reset", "Microsoft Server"],
+      "Ticketing System": ["Service Desk", "Help Desk System", "Incident Management"],
+      "Hardware Installation": ["Computer Repairs", "PC Repairs", "Device Setup"]
+    },
+    "degrees": [
+      "Diploma in Information Technology",
+      "Information Technology",
+      "Computer Science",
+      "IT Diploma",
+      "Higher Certificate in IT",
+      "BSc IT"
+    ],
+    "certifications": [
+      "CompTIA A+",
+      "CompTIA Network+",
+      "CompTIA Security+",
+      "Microsoft Certified",
+      "Cisco CCNA",
+      "ITIL Foundation"
+    ],
+    "soft_skills": [
       "Customer Service",
       "Problem Solving",
       "Attention to Detail",
-      "Communication"
+      "Communication",
+      "Patience",
+      "Time Management"
     ]
   },
 
   "Software Development": {
-    "skills": [
+    "required_skills": [
       "Python",
       "Java",
       "C++",
@@ -73,8 +115,6 @@
       "JavaScript",
       "HTML",
       "CSS",
-      "React",
-      "Node.js",
       "SQL",
       "Git",
       "GitHub",
@@ -83,45 +123,95 @@
       "Object-Oriented Programming",
       "Web Development",
       "Database Management",
-      "Software Testing",
-      "Agile",
-      "Frontend Development",
-      "Backend Development",
-      "Responsive Design",
+      "Software Testing"
+    ],
+    "related_skills": {
+      "Python": ["Flask", "Django", "Scripting", "Backend Development"],
+      "JavaScript": ["React", "Node.js", "Frontend Development", "Web Development"],
+      "SQL": ["Database", "MySQL", "PostgreSQL", "Queries"],
+      "Git": ["GitHub", "Version Control", "Source Control"],
+      "Software Testing": ["Unit Testing", "Debugging", "Quality Assurance"],
+      "APIs": ["REST API", "API Integration", "Web Services"]
+    },
+    "degrees": [
+      "BSc Computer Science",
+      "Computer Science",
+      "Software Engineering",
+      "Information Technology",
+      "BSc IT",
+      "Diploma in IT"
+    ],
+    "certifications": [
+      "AWS Certified Developer",
+      "Microsoft Certified",
+      "Oracle Java Certification",
+      "Python Certification",
+      "GitHub Certification"
+    ],
+    "soft_skills": [
       "Problem Solving",
       "Attention to Detail",
       "Teamwork",
-      "Communication"
+      "Communication",
+      "Critical Thinking",
+      "Adaptability"
     ]
   },
 
   "Finance": {
-    "skills": [
+    "required_skills": [
       "Excel",
-      "Power BI",
       "Financial Analysis",
       "Budgeting",
       "Forecasting",
       "Reconciliation",
       "Audit",
       "Accounting",
-      "Variance Analysis",
       "Financial Reporting",
       "Bookkeeping",
       "Tax",
       "SAP",
       "Sage",
       "Risk Analysis",
-      "Financial Modelling",
+      "Financial Modelling"
+    ],
+    "related_skills": {
+      "Financial Analysis": ["Finance", "Financial Reporting", "Variance Analysis", "Financial Modelling"],
+      "Accounting": ["Bookkeeping", "Accounts", "Debits", "Credits"],
+      "Reconciliation": ["Bank Reconciliation", "Account Reconciliation", "Balance Sheet"],
+      "Budgeting": ["Forecasting", "Planning", "Cost Control"],
+      "SAP": ["ERP", "Finance System", "Accounting System"]
+    },
+    "degrees": [
+      "BCom Accounting",
+      "BCom Finance",
+      "BCom Economics",
+      "Accounting",
+      "Finance",
+      "Economics",
+      "Financial Management"
+    ],
+    "certifications": [
+      "CIMA",
+      "ACCA",
+      "SAICA",
+      "CFA",
+      "Sage Certification",
+      "SAP Certification",
+      "Microsoft Excel"
+    ],
+    "soft_skills": [
       "Attention to Detail",
       "Accuracy",
       "Problem Solving",
-      "Communication"
+      "Communication",
+      "Analytical Thinking",
+      "Integrity"
     ]
   },
 
   "Law": {
-    "skills": [
+    "required_skills": [
       "Legal Research",
       "Legal Writing",
       "Contract Review",
@@ -132,18 +222,42 @@
       "Drafting Legal Documents",
       "Client Consultation",
       "Legal Administration",
+      "Legal Analysis"
+    ],
+    "related_skills": {
+      "Legal Research": ["Case Law", "Legal Analysis", "Regulatory Research"],
+      "Legal Writing": ["Drafting Legal Documents", "Legal Drafting", "Legal Reports"],
+      "Compliance": ["Regulatory Compliance", "Policy Review", "Risk Compliance"],
+      "Contract Review": ["Contracts", "Agreement Review", "Legal Documents"],
+      "Litigation Support": ["Court Documents", "Case Preparation", "Legal Administration"]
+    },
+    "degrees": [
+      "LLB",
+      "BA Law",
+      "BCom Law",
+      "Law Degree",
+      "Legal Studies",
+      "Paralegal Studies"
+    ],
+    "certifications": [
+      "Practical Legal Training",
+      "PLT",
+      "Legal Practice Council",
+      "Compliance Certificate",
+      "Paralegal Certificate"
+    ],
+    "soft_skills": [
       "Confidentiality",
       "Attention to Detail",
       "Critical Thinking",
       "Communication",
       "Problem Solving",
-      "Negotiation",
-      "Legal Analysis"
+      "Professionalism"
     ]
   },
 
   "Marketing": {
-    "skills": [
+    "required_skills": [
       "Digital Marketing",
       "SEO",
       "Paid Media",
@@ -157,17 +271,43 @@
       "Copywriting",
       "Canva",
       "Meta Ads",
-      "Email Marketing",
-      "Advertising",
+      "Email Marketing"
+    ],
+    "related_skills": {
+      "Digital Marketing": ["Online Marketing", "Social Media Marketing", "Email Marketing"],
+      "SEO": ["Search Engine Optimization", "Keyword Research", "Website Traffic"],
+      "Paid Media": ["Meta Ads", "Google Ads", "Advertising"],
+      "Campaign Analysis": ["Marketing Analytics", "Performance Analysis", "Google Analytics"],
+      "Content Marketing": ["Copywriting", "Content Creation", "Brand Messaging"]
+    },
+    "degrees": [
+      "BCom Marketing",
+      "Marketing",
+      "Digital Marketing",
+      "Business Management",
+      "Communication",
+      "Media Studies"
+    ],
+    "certifications": [
+      "Google Analytics",
+      "Google Ads",
+      "Meta Blueprint",
+      "HubSpot",
+      "Digital Marketing Certificate",
+      "Canva Certification"
+    ],
+    "soft_skills": [
       "Communication",
       "Creativity",
       "Presentation Skills",
-      "Analytics"
+      "Teamwork",
+      "Analytical Thinking",
+      "Adaptability"
     ]
   },
 
   "HR": {
-    "skills": [
+    "required_skills": [
       "Recruitment",
       "Onboarding",
       "Employee Records",
@@ -178,17 +318,42 @@
       "Sage Payroll",
       "Talent Management",
       "Employee Relations",
-      "Performance Management",
-      "Confidentiality",
+      "Performance Management"
+    ],
+    "related_skills": {
+      "Recruitment": ["Talent Acquisition", "Screening", "Interview Scheduling"],
+      "Onboarding": ["Employee Induction", "New Starters", "Orientation"],
+      "Payroll Support": ["Sage Payroll", "Payroll Administration", "Salary Processing"],
+      "HR Administration": ["Employee Records", "HR Documents", "HR Support"],
+      "Employee Relations": ["Labour Relations", "Workplace Relations", "Disciplinary Process"]
+    },
+    "degrees": [
+      "Human Resources",
+      "Industrial Psychology",
+      "BCom Human Resources",
+      "Labour Relations",
+      "Psychology",
+      "Business Management"
+    ],
+    "certifications": [
+      "Sage Payroll",
+      "HR Certificate",
+      "Payroll Certificate",
+      "Labour Relations Certificate",
+      "HRIS Certification"
+    ],
+    "soft_skills": [
       "Communication",
+      "Confidentiality",
       "Organisation",
       "People Skills",
-      "Attention to Detail"
+      "Attention to Detail",
+      "Professionalism"
     ]
   },
 
   "Engineering": {
-    "skills": [
+    "required_skills": [
       "AutoCAD",
       "MATLAB",
       "SolidWorks",
@@ -198,19 +363,44 @@
       "Maintenance",
       "Process Improvement",
       "Technical Reporting",
+      "Safety Compliance"
+    ],
+    "related_skills": {
+      "AutoCAD": ["Technical Drawing", "CAD", "Design"],
+      "MATLAB": ["Simulation", "Engineering Analysis", "Numerical Analysis"],
+      "Quality Control": ["Quality Assurance", "Inspection", "Testing"],
+      "Maintenance": ["Mechanical Maintenance", "Electrical Maintenance", "Repairs"],
+      "Process Improvement": ["Lean", "Continuous Improvement", "Efficiency"]
+    },
+    "degrees": [
       "Mechanical Engineering",
       "Electrical Engineering",
       "Civil Engineering",
-      "Safety Compliance",
+      "Chemical Engineering",
+      "Industrial Engineering",
+      "Engineering Diploma",
+      "BEng",
+      "BSc Engineering"
+    ],
+    "certifications": [
+      "AutoCAD Certification",
+      "SolidWorks Certification",
+      "Safety Certificate",
+      "Project Management Certificate",
+      "Lean Six Sigma"
+    ],
+    "soft_skills": [
       "Problem Solving",
       "Teamwork",
       "Attention to Detail",
-      "Communication"
+      "Communication",
+      "Analytical Thinking",
+      "Time Management"
     ]
   },
 
   "Health Sciences": {
-    "skills": [
+    "required_skills": [
       "Patient Care",
       "Health Education",
       "Clinical Documentation",
@@ -221,17 +411,45 @@
       "Health Promotion",
       "Healthcare Support",
       "Clinical Research",
-      "Ethics",
+      "Ethics"
+    ],
+    "related_skills": {
+      "Patient Care": ["Healthcare Support", "Clinical Support", "Patient Support"],
+      "Clinical Documentation": ["Medical Records", "Patient Records", "Clinical Notes"],
+      "Public Health": ["Health Promotion", "Community Health", "Health Education"],
+      "Research": ["Clinical Research", "Data Collection", "Research Methods"],
+      "Ethics": ["Confidentiality", "Professional Conduct", "Patient Privacy"]
+    },
+    "degrees": [
+      "Health Sciences",
+      "Public Health",
+      "Nursing",
+      "Biomedical Science",
+      "Medical Science",
+      "Pharmacy",
+      "Physiotherapy"
+    ],
+    "certifications": [
+      "First Aid",
+      "Basic Life Support",
+      "BLS",
+      "Good Clinical Practice",
+      "GCP",
+      "HPCSA",
+      "SANC"
+    ],
+    "soft_skills": [
       "Confidentiality",
       "Communication",
       "Attention to Detail",
       "Teamwork",
-      "Problem Solving"
+      "Problem Solving",
+      "Empathy"
     ]
   },
 
   "Education": {
-    "skills": [
+    "required_skills": [
       "Lesson Planning",
       "Teaching",
       "Tutoring",
@@ -239,18 +457,44 @@
       "Assessment",
       "Classroom Management",
       "Student Support",
+      "Presentation Skills",
+      "Education Research"
+    ],
+    "related_skills": {
+      "Teaching": ["Tutoring", "Facilitation", "Instruction"],
+      "Lesson Planning": ["Curriculum Support", "Learning Materials", "Teaching Plan"],
+      "Assessment": ["Marking", "Student Evaluation", "Tests"],
+      "Student Support": ["Mentoring", "Academic Support", "Learner Support"],
+      "Classroom Management": ["Discipline", "Learner Management", "Class Control"]
+    },
+    "degrees": [
+      "Bachelor of Education",
+      "BEd",
+      "PGCE",
+      "Education",
+      "Teaching",
+      "Training",
+      "Curriculum Studies"
+    ],
+    "certifications": [
+      "SACE",
+      "TEFL",
+      "Teaching Certificate",
+      "PGCE",
+      "First Aid"
+    ],
+    "soft_skills": [
       "Communication",
       "Presentation Skills",
       "Leadership",
       "Patience",
       "Organisation",
-      "Problem Solving",
-      "Education Research"
+      "Problem Solving"
     ]
   },
 
   "Business": {
-    "skills": [
+    "required_skills": [
       "Business Analysis",
       "Operations",
       "Project Management",
@@ -262,12 +506,39 @@
       "Research",
       "Customer Service",
       "Excel",
+      "Business Development",
+      "Strategic Thinking"
+    ],
+    "related_skills": {
+      "Business Analysis": ["Process Analysis", "Requirements Gathering", "Business Requirements"],
+      "Operations": ["Operations Support", "Process Improvement", "Workflow"],
+      "Project Management": ["Project Support", "Planning", "Coordination"],
+      "CRM": ["Customer Relationship Management", "Salesforce", "Client Management"],
+      "Reporting": ["Business Reporting", "KPI Reporting", "Management Reports"]
+    },
+    "degrees": [
+      "BCom",
+      "Business Management",
+      "Business Administration",
+      "Management",
+      "Economics",
+      "Entrepreneurship"
+    ],
+    "certifications": [
+      "Project Management Certificate",
+      "PRINCE2",
+      "Agile Certificate",
+      "Business Analysis Certificate",
+      "Microsoft Excel",
+      "CRM Certification"
+    ],
+    "soft_skills": [
       "Communication",
       "Problem Solving",
       "Leadership",
       "Attention to Detail",
-      "Business Development",
-      "Strategic Thinking"
+      "Teamwork",
+      "Adaptability"
     ]
   }
 }
