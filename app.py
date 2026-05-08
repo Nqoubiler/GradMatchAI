@@ -10,14 +10,12 @@ st.set_page_config(
     layout="wide"
 )
 
-# Load skills database
 def load_skills_database():
     with open("skills_database.json", "r") as file:
         return json.load(file)
 
 skills_db = load_skills_database()
 
-# Theme
 theme = st.sidebar.radio("Choose theme", ["Light", "Dark"])
 
 if theme == "Light":
@@ -35,27 +33,12 @@ else:
     border = "#334155"
     hero = "linear-gradient(135deg, #020617, #1d4ed8)"
 
-# CSS
 st.markdown(f"""
 <style>
-.stApp {{
-    background: {bg};
-    color: {text};
-}}
-
-section[data-testid="stSidebar"] {{
-    background: #1f2430 !important;
-}}
-
-section[data-testid="stSidebar"] * {{
-    color: white !important;
-}}
-
-.block-container {{
-    max-width: 1100px;
-    padding-top: 2rem;
-}}
-
+.stApp {{ background: {bg}; color: {text}; }}
+section[data-testid="stSidebar"] {{ background: #1f2430 !important; }}
+section[data-testid="stSidebar"] * {{ color: white !important; }}
+.block-container {{ max-width: 1100px; padding-top: 2rem; }}
 .hero {{
     background: {hero};
     color: white;
@@ -64,12 +47,7 @@ section[data-testid="stSidebar"] * {{
     margin-bottom: 25px;
     box-shadow: 0 15px 35px rgba(0,0,0,0.18);
 }}
-
-.logo {{
-    font-size: 42px;
-    font-weight: 900;
-}}
-
+.logo {{ font-size: 42px; font-weight: 900; }}
 .card {{
     background: {card};
     color: {text};
@@ -79,83 +57,29 @@ section[data-testid="stSidebar"] * {{
     border: 1px solid {border};
     box-shadow: 0 10px 25px rgba(15,23,42,0.08);
 }}
-
 label, .stTextInput label, .stSelectbox label, .stTextArea label, .stFileUploader label {{
     color: {text} !important;
     font-weight: 700 !important;
     font-size: 15px !important;
 }}
-
 input, textarea {{
     background-color: {input_bg} !important;
     color: {text} !important;
     border: 1px solid {border} !important;
 }}
-
 [data-testid="stFileUploader"] section {{
     background: #ffffff !important;
     border: 2px dashed #2563eb !important;
     border-radius: 16px !important;
     color: #111827 !important;
 }}
-
-[data-testid="stFileUploader"] section * {{
-    color: #111827 !important;
-}}
-
+[data-testid="stFileUploader"] section * {{ color: #111827 !important; }}
 [data-testid="stFileUploader"] button {{
     background: #2563eb !important;
     color: white !important;
     border-radius: 10px !important;
     border: none !important;
 }}
-
-[data-testid="stFileUploaderFile"] {{
-    background: #2563eb !important;
-    color: white !important;
-    border-radius: 12px !important;
-    padding: 8px !important;
-    border: none !important;
-}}
-
-[data-testid="stFileUploaderFile"] * {{
-    color: white !important;
-    opacity: 1 !important;
-}}
-
-[data-testid="stFileUploaderFile"] span {{
-    color: white !important;
-    opacity: 1 !important;
-}}
-
-[data-testid="stFileUploaderFileName"] {{
-    color: white !important;
-    font-weight: 800 !important;
-    opacity: 1 !important;
-}}
-
-div[data-testid="stFileUploaderFile"] {{
-    background-color: #2563eb !important;
-    border: 2px solid #2563eb !important;
-}}
-
-div[data-testid="stFileUploaderFile"] div {{
-    color: #ffffff !important;
-}}
-
-div[data-testid="stFileUploaderFile"] span {{
-    color: #ffffff !important;
-}}
-
-div[data-testid="stFileUploaderFile"] small {{
-    color: #dbeafe !important;
-}}
-
-div[data-testid="stFileUploaderFile"] svg {{
-    color: #ffffff !important;
-    fill: #ffffff !important;
-}}
-
 .stButton > button {{
     background: #2563eb !important;
     color: white !important;
@@ -165,7 +89,6 @@ div[data-testid="stFileUploaderFile"] svg {{
     font-weight: 800 !important;
     font-size: 16px !important;
 }}
-
 .score-box {{
     background: #2563eb;
     color: white;
@@ -173,22 +96,12 @@ div[data-testid="stFileUploaderFile"] svg {{
     border-radius: 24px;
     text-align: center;
 }}
-
 .score-number {{
     font-size: 58px;
     font-weight: 900;
     color: white !important;
 }}
-
-[data-testid="stMetric"] {{
-    background: {card};
-    color: {text} !important;
-}}
-
-[data-testid="stMetric"] * {{
-    color: {text} !important;
-}}
-
+[data-testid="stMetric"] * {{ color: {text} !important; }}
 .chip-good, .chip-missing, .chip-job, .chip-cv {{
     display: inline-block;
     padding: 9px 14px;
@@ -197,27 +110,10 @@ div[data-testid="stFileUploaderFile"] svg {{
     font-weight: 700;
     font-size: 14px;
 }}
-
-.chip-good {{
-    background: #dcfce7;
-    color: #166534;
-}}
-
-.chip-missing {{
-    background: #fee2e2;
-    color: #991b1b;
-}}
-
-.chip-job {{
-    background: #dbeafe;
-    color: #1e40af;
-}}
-
-.chip-cv {{
-    background: #fef3c7;
-    color: #92400e;
-}}
-
+.chip-good {{ background: #dcfce7; color: #166534; }}
+.chip-missing {{ background: #fee2e2; color: #991b1b; }}
+.chip-job {{ background: #dbeafe; color: #1e40af; }}
+.chip-cv {{ background: #fef3c7; color: #92400e; }}
 .cover-box {{
     background: {input_bg};
     color: {text};
@@ -226,28 +122,10 @@ div[data-testid="stFileUploaderFile"] svg {{
     border: 1px solid {border};
     line-height: 1.7;
 }}
-
-.stAlert {{
-    color: black !important;
-    font-weight: 700 !important;
-}}
-
-.stAlert * {{
-    color: black !important;
-    font-weight: 700 !important;
-}}
-
-[data-baseweb="notification"] {{
-    color: black !important;
-}}
-
-[data-baseweb="notification"] * {{
-    color: black !important;
-}}
+.stAlert * {{ color: black !important; font-weight: 700 !important; }}
 </style>
 """, unsafe_allow_html=True)
 
-# Read CV files
 def read_pdf(file):
     text = ""
     reader = PyPDF2.PdfReader(file)
@@ -261,15 +139,12 @@ def read_docx(file):
 
 def get_file_text(uploaded_file):
     file_name = uploaded_file.name.lower()
-
     if file_name.endswith(".pdf"):
         return read_pdf(uploaded_file)
     elif file_name.endswith(".docx"):
         return read_docx(uploaded_file)
-    else:
-        return uploaded_file.read().decode("utf-8")
+    return uploaded_file.read().decode("utf-8")
 
-# Text cleaning and matching
 def clean_text(text):
     text = text.lower()
     text = text.replace("powerbi", "power bi")
@@ -277,64 +152,109 @@ def clean_text(text):
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 
-def skill_found(skill, text):
-    return clean_text(skill) in clean_text(text)
+def found(term, text):
+    return clean_text(term) in clean_text(text)
+
+def count_matches(items, text):
+    return [item for item in items if found(item, text)]
+
+def related_matches(related_dict, cv_text, job_text):
+    matches = []
+    missing = []
+
+    for main_skill, related_terms in related_dict.items():
+        if found(main_skill, job_text):
+            if found(main_skill, cv_text):
+                matches.append(main_skill)
+            else:
+                partial = [term for term in related_terms if found(term, cv_text)]
+                if partial:
+                    matches.append(f"{main_skill} related to {', '.join(partial[:2])}")
+                else:
+                    missing.append(main_skill)
+
+    return matches, missing
 
 def detect_best_field(job_text):
     best_field = None
-    best_count = 0
+    best_score = 0
 
     for field, data in skills_db.items():
-        count = sum(1 for skill in data["skills"] if skill_found(skill, job_text))
+        score = 0
+        score += len(count_matches(data["required_skills"], job_text)) * 3
+        score += len(count_matches(data["degrees"], job_text)) * 2
+        score += len(count_matches(data["certifications"], job_text)) * 2
+        score += len(count_matches(data["soft_skills"], job_text))
 
-        if count > best_count:
-            best_count = count
+        if score > best_score:
+            best_score = score
             best_field = field
 
-    return best_field, best_count
+    return best_field, best_score
 
 def analyze_match(cv_text, job_text, selected_field):
     if selected_field == "Auto-detect":
-        detected_field, count = detect_best_field(job_text)
-
-        if detected_field is None or count == 0:
-            return None, None, None, None, None, None
-
-        field = detected_field
-
+        field, detected_score = detect_best_field(job_text)
+        if field is None or detected_score == 0:
+            return None
     elif selected_field == "Other":
-        return "Other", None, None, None, None, None
-
+        return "Other"
     else:
         field = selected_field
 
-    field_skills = skills_db[field]["skills"]
+    data = skills_db[field]
 
-    job_required_skills = [
-        skill for skill in field_skills
-        if skill_found(skill, job_text)
-    ]
+    job_required = count_matches(data["required_skills"], job_text)
+    cv_required = [skill for skill in job_required if found(skill, cv_text)]
+    missing_required = [skill for skill in job_required if skill not in cv_required]
 
-    cv_matching_skills = [
-        skill for skill in job_required_skills
-        if skill_found(skill, cv_text)
-    ]
+    related_found, related_missing = related_matches(data["related_skills"], cv_text, job_text)
 
-    missing_skills = [
-        skill for skill in job_required_skills
-        if skill not in cv_matching_skills
-    ]
+    job_degrees = count_matches(data["degrees"], job_text)
+    cv_degrees = [degree for degree in data["degrees"] if found(degree, cv_text)]
 
-    cv_field_skills = [
-        skill for skill in field_skills
-        if skill_found(skill, cv_text)
-    ]
+    job_certs = count_matches(data["certifications"], job_text)
+    cv_certs = [cert for cert in data["certifications"] if found(cert, cv_text)]
 
-    score = round((len(cv_matching_skills) / len(job_required_skills)) * 100, 1) if job_required_skills else 0
+    job_soft = count_matches(data["soft_skills"], job_text)
+    cv_soft = [skill for skill in job_soft if found(skill, cv_text)]
 
-    return field, score, job_required_skills, cv_matching_skills, missing_skills, cv_field_skills
+    required_score = (len(cv_required) / len(job_required) * 45) if job_required else 35
+    related_score = (len(related_found) / max(len(related_found) + len(related_missing), 1) * 20)
+    degree_score = 20 if cv_degrees else (10 if not job_degrees else 0)
+    cert_score = (len(cv_certs) / len(job_certs) * 10) if job_certs else 7
+    soft_score = (len(cv_soft) / len(job_soft) * 5) if job_soft else 3
 
-# Cover letter
+    final_score = round(min(required_score + related_score + degree_score + cert_score + soft_score, 100), 1)
+
+    cv_field_skills = (
+        count_matches(data["required_skills"], cv_text)
+        + count_matches(data["degrees"], cv_text)
+        + count_matches(data["certifications"], cv_text)
+        + count_matches(data["soft_skills"], cv_text)
+    )
+
+    return {
+        "field": field,
+        "score": final_score,
+        "job_required": job_required,
+        "cv_required": cv_required,
+        "missing_required": missing_required,
+        "related_found": related_found,
+        "related_missing": related_missing,
+        "cv_degrees": cv_degrees,
+        "cv_certs": cv_certs,
+        "cv_soft": cv_soft,
+        "cv_field_skills": sorted(set(cv_field_skills)),
+        "breakdown": {
+            "Required skills": round(required_score, 1),
+            "Related skills": round(related_score, 1),
+            "Degree relevance": round(degree_score, 1),
+            "Certifications": round(cert_score, 1),
+            "Soft skills": round(soft_score, 1)
+        }
+    }
+
 def generate_cover_letter(full_name, field, matched_skills, missing_skills):
     strongest_skills = ", ".join(matched_skills[:6]) or "problem solving, attention to detail, communication, and willingness to learn"
     improvement_focus = ", ".join(missing_skills[:3]) or "the key responsibilities of the role"
@@ -361,7 +281,6 @@ def show_chips(items, css_class):
         html = " ".join([f"<span class='{css_class}'>{item}</span>" for item in items])
         st.markdown(html, unsafe_allow_html=True)
 
-# UI
 st.markdown("""
 <div class="hero">
     <div class="logo">🎓 GradMatch AI</div>
@@ -378,19 +297,10 @@ col1, col2 = st.columns(2)
 with col1:
     first_name = st.text_input("Enter your first name", placeholder="Example: Nqobile")
 
-    country_options = [
-        "South Africa",
-        "United States",
-        "United Kingdom",
-        "Canada",
-        "Australia",
-        "India",
-        "Nigeria",
-        "Kenya",
-        "Other"
-    ]
-
-    selected_country = st.selectbox("Select your country/region", country_options)
+    selected_country = st.selectbox(
+        "Select your country/region",
+        ["South Africa", "United States", "United Kingdom", "Canada", "Australia", "India", "Nigeria", "Kenya", "Other"]
+    )
 
     if selected_country == "Other":
         country = st.text_input("Type your country", placeholder="Example: Zimbabwe")
@@ -434,7 +344,6 @@ analyze = st.button("Analyze my match score")
 
 st.markdown("</div>", unsafe_allow_html=True)
 
-# Results
 if analyze:
     missing_inputs = []
 
@@ -450,25 +359,19 @@ if analyze:
         missing_inputs.append("job description")
 
     if missing_inputs:
-        st.warning(
-            "Please complete the following before analyzing your match score: "
-            + ", ".join(missing_inputs)
-            + "."
-        )
+        st.warning("Please complete the following before analyzing your match score: " + ", ".join(missing_inputs) + ".")
     else:
         cv_text = get_file_text(cv_file)
+        result = analyze_match(cv_text, job_description, selected_field)
 
-        field, score, job_required_skills, cv_matching_skills, missing_skills, cv_field_skills = analyze_match(
-            cv_text,
-            job_description,
-            selected_field
-        )
-
-        if field == "Other":
+        if result == "Other":
             st.error("Sorry, this field is not supported yet. Please choose one of the available fields.")
-        elif field is None:
+        elif result is None:
             st.error("Sorry, the app could not detect a supported field. Please choose the field manually.")
         else:
+            field = result["field"]
+            score = result["score"]
+
             st.markdown("<div class='card'>", unsafe_allow_html=True)
             st.subheader("Your match result")
 
@@ -477,7 +380,7 @@ if analyze:
             with col1:
                 st.markdown(f"""
                 <div class="score-box">
-                    <p>Match Score</p>
+                    <p>ATS-Style Match Score</p>
                     <div class="score-number">{score}%</div>
                 </div>
                 """, unsafe_allow_html=True)
@@ -486,7 +389,7 @@ if analyze:
                 st.metric("Field Checked", field)
 
             with col3:
-                st.metric("Missing Skills", len(missing_skills))
+                st.metric("Missing Required Skills", len(result["missing_required"]))
 
             if score >= 75:
                 st.success("Strong match. This role looks aligned with your CV.")
@@ -500,30 +403,46 @@ if analyze:
             st.markdown("</div>", unsafe_allow_html=True)
 
             st.markdown("<div class='card'>", unsafe_allow_html=True)
-            st.subheader("Skills required by this job")
-            show_chips(job_required_skills, "chip-job")
+            st.subheader("Score breakdown")
+            for label, value in result["breakdown"].items():
+                st.write(f"{label}: {value}")
             st.markdown("</div>", unsafe_allow_html=True)
 
             st.markdown("<div class='card'>", unsafe_allow_html=True)
-            st.subheader("Skills already found in your CV")
-            show_chips(cv_matching_skills, "chip-good")
+            st.subheader("Required skills found in your CV")
+            show_chips(result["cv_required"], "chip-good")
             st.markdown("</div>", unsafe_allow_html=True)
 
             st.markdown("<div class='card'>", unsafe_allow_html=True)
-            st.subheader("Important skills to add only if they are true")
-            show_chips(missing_skills, "chip-missing")
+            st.subheader("Related skills found")
+            show_chips(result["related_found"], "chip-cv")
             st.markdown("</div>", unsafe_allow_html=True)
 
             st.markdown("<div class='card'>", unsafe_allow_html=True)
-            st.subheader("All field-related skills detected in your CV")
-            show_chips(cv_field_skills, "chip-cv")
+            st.subheader("Important required skills to add only if they are true")
+            show_chips(result["missing_required"], "chip-missing")
+            st.markdown("</div>", unsafe_allow_html=True)
+
+            st.markdown("<div class='card'>", unsafe_allow_html=True)
+            st.subheader("Degrees detected in your CV")
+            show_chips(result["cv_degrees"], "chip-job")
+            st.markdown("</div>", unsafe_allow_html=True)
+
+            st.markdown("<div class='card'>", unsafe_allow_html=True)
+            st.subheader("Certifications detected in your CV")
+            show_chips(result["cv_certs"], "chip-job")
+            st.markdown("</div>", unsafe_allow_html=True)
+
+            st.markdown("<div class='card'>", unsafe_allow_html=True)
+            st.subheader("All field-related items detected in your CV")
+            show_chips(result["cv_field_skills"], "chip-cv")
             st.markdown("</div>", unsafe_allow_html=True)
 
             cover_letter = generate_cover_letter(
                 full_name,
                 field,
-                cv_matching_skills,
-                missing_skills
+                result["cv_required"] + result["related_found"],
+                result["missing_required"]
             )
 
             st.markdown("<div class='card'>", unsafe_allow_html=True)
